@@ -48,6 +48,7 @@ header {
 
 .textarea__texto {
     width: 80%;
+    height: 100%;
     font-size: 32px;
     color: var(--color-blue);
     resize: none;
@@ -176,6 +177,10 @@ header {
         height: 100%;
     }
 
+    .textarea__texto {
+        width: 100%;
+    }
+
     .left__botones{
         justify-content: center;
     }
@@ -187,6 +192,9 @@ header {
 
     .munieco {
         display: none;
+    }
+    .footer {
+        margin: 176px 50px;
     }
 }
 
